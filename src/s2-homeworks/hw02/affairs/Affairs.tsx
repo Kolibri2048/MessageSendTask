@@ -6,7 +6,7 @@ import affair from "./affair/Affair";
 
 type AffairsPropsType = {
     data: Array<AffairType> // need to fix any
-    setFilter: (filter:FilterType | 'all') => void
+    setFilter: (filter:FilterType) => void
     deleteAffairCallback: (_id: number) => void
     filter: FilterType
 }
