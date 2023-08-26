@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MessageSendTask/static/css/main.0734d36f.css",
-    "main.js": "/MessageSendTask/static/js/main.b13f2ddf.js",
+    "main.css": "/MessageSendTask/static/css/main.b6d3b4b1.css",
+    "main.js": "/MessageSendTask/static/js/main.f40e3214.js",
     "static/js/787.66cb4309.chunk.js": "/MessageSendTask/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/MessageSendTask/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/MessageSendTask/index.html",
-    "main.0734d36f.css.map": "/MessageSendTask/static/css/main.0734d36f.css.map",
-    "main.b13f2ddf.js.map": "/MessageSendTask/static/js/main.b13f2ddf.js.map",
+    "main.b6d3b4b1.css.map": "/MessageSendTask/static/css/main.b6d3b4b1.css.map",
+    "main.f40e3214.js.map": "/MessageSendTask/static/js/main.f40e3214.js.map",
     "787.66cb4309.chunk.js.map": "/MessageSendTask/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0734d36f.css",
-    "static/js/main.b13f2ddf.js"
+    "static/css/main.b6d3b4b1.css",
+    "static/js/main.f40e3214.js"
   ]
 }
