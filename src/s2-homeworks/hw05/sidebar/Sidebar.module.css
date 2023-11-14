@@ -37,7 +37,7 @@
     font-size: 20px;
     color: black;
     font-weight: 600;
-
+    text-decoration: none;
 }
 
 .nav a:first-child {
