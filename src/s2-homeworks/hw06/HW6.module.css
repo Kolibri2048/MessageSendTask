@@ -1,4 +1,5 @@
-.buttonsContainer {
+.buttonsContainer button {
+    margin-right: 20px;
 }
 
 .editableSpanContainer {
