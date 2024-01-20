@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-  "homepage": "https://kolibri2048.github.io/MessageSendTask/#/junior",
+  "homepage": "https://kolibri2048.github.io/MessageSendTask",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
