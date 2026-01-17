@@ -52,7 +52,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     const onBlurCallback = (e: React.FocusEvent<HTMLInputElement>) => {
         // выключить editMode при нажатии за пределами инпута // делают студенты
         setEditMode(false)
-       onBlur && onBlur?.(e)
+       onBlur && onBlur(e)
     }
     const onDoubleClickCallBack = (
         e: React.MouseEvent<HTMLSpanElement, MouseEvent>
@@ -60,7 +60,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         setEditMode(true)
         // включить editMode при двойном клике // делают студенты
 
-        onDoubleClick && onDoubleClick?.(e)
+        onDoubleClick && onDoubleClick(e)
     }
 
 
@@ -79,7 +79,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                     {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
                 />
             ) : (
-                <div className={s.spanBlock}>
+                <div className={s.spanBlock} id="hw6-editable-span">
                     <img
                         src={editIcon}
                         className={s.pen}
