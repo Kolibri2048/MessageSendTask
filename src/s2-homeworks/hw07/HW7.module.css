@@ -1,2 +1,15 @@
 .container {
+    display: flex;
+}
+
+.selectContainer {
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
 }

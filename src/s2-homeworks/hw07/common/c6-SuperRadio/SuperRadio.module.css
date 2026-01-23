@@ -1,15 +1,27 @@
 .radio {
+    width: 35px;
+    height: 15px;
+    margin-left: 100px;
 }
 
 .radio::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
 }
 
 
 .radio:checked::before {
+
 }
 
 .label {
+    padding-bottom: 10px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
 }
+
